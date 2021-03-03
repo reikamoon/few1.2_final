@@ -1,0 +1,26 @@
+/*  src/Header.css  */
+.Header {
+    font-family: "DotGothic16";
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: black;
+    color: #fff;
+}
+
+.Header .nav-link {
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: rgba(255, 255, 255, 0.835);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Header .nav-link-active {
+    color: red;
+    border-bottom: 2px solid;
+}
