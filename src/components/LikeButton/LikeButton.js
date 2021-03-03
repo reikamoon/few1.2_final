@@ -1,40 +1,42 @@
 import React from 'react';
 
 class LikeButton extends React.Component {
-    constructor(props){
-        super(props)
-        this.state = {
-            count: 0,
-            addend: 0 // either 1, 0, or -1
-        }
-    }
 
-    toggleIncrement = () => {
-        this.setState(prevState => ({
-            addend: prevState.addend === 1 ? 0 : 1
-        }))
-    }
+   constructor(props){
+       super(props)
+       this.state = {
+           count: 0,
+           hasUpvoted: false,
+       }
+   }
 
-    toggleDecrement = () => {
+   increment = () => {
 
-        this.setState(prevState => ({
-            addend: prevState.addend === -1 ? 0 : -1
-        }))
-    }
+     this.setState({
+         count: this.state.count + 1,
+     })
+   }
 
-    render() {
-        return (
-            <div>
-                <button onClick={this.toggleIncrement}>
-                    +
-                </button>
-                <span>{this.state.count + this.state.addend}</span>
-                <button onClick={this.toggleDecrement}>
-                    -
-                </button>
-            </div>
-        );
-    }
+   decrement = () => {
+
+      this.setState({
+        count: this.state.count - 1
+      })
+   }
+
+   render() {
+     return (
+        <div>
+            <button onClick={ this.state.hasVoted ? this.decrement: this.increment}>
+                +
+            </button>
+            <span>{this.state.count}</span>
+            <button onClick={this.decrement}>
+                -
+            </button>
+        </div>
+    );
+  }
 }
 
 export default LikeButton;
