@@ -1,0 +1,18 @@
+import React from 'react'
+import data from '../../metal.json';
+import './BandDetails.css';
+
+function BandDetails(props) {
+  const { band_name, fans, formed, origin, split, style } = props
+   return (
+    <div className="BandDetails">
+      <h1>{band_name} {formed} - {split}</h1>
+      <h3>Style: {style}</h3>
+      <h3>From: {origin}</h3>
+      <h3>Fans: {fans}</h3>
+
+    </div>
+  )
+}
+
+export default BandDetails

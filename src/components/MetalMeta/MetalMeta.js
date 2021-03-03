@@ -1,19 +1,20 @@
 import React from 'react';
-import data from './metal.json';
+import data from '../../metal.json';
+import BandDetails from '../BandDetails/BandDetails'
+
 
 function MetalMeta() {
 
-  const spaces = data.map(( {  }, i) => {
+  const spaces = data.map(( { band_name, fans, formed, origin, split, style }, i) => {
     return (
-      <CharaDetails
+      <BandDetails
         id={i}
-        key={key} // The title could be a key
-        name={name}
-        title={title}
-        img={img}
-        quote={quote}
-        weapontype={weapontype}
-        difficulty={difficulty}
+        band_name={band_name}
+        fans={fans}
+        formed={formed}
+        origin={origin}
+        split={split}
+        style={style}
       />
     )
   })
