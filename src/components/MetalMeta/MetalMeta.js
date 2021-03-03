@@ -10,6 +10,7 @@ function MetalMeta() {
     return (
       <BandDetails
         id={i}
+        key={band_name}
         band_name={band_name}
         fans={fans}
         formed={formed}
