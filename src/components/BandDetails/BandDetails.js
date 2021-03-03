@@ -1,6 +1,7 @@
 import React from 'react'
 import data from '../../metal.json';
 import './BandDetails.css';
+import LikeButton from '../LikeButton/LikeButton';
 
 function BandDetails(props) {
   const { band_name, fans, formed, origin, split, style } = props
@@ -11,7 +12,8 @@ function BandDetails(props) {
       <h3>Style: {style}</h3>
       <h3>From: {origin}</h3>
       <h3>Fans: {fans}</h3>
-
+      Likes:
+    <LikeButton />
     </div>
   )
 }
