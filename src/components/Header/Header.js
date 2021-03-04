@@ -6,7 +6,7 @@ function Header() {
         <div className="Header">
       <header>
         <h1>FEW 1.2 Final Assessment</h1>
-        <div className="Header-Subtitle">Anjelica Ambrosio</div>
+        <div className="Header-Subtitle">by Anjelica Ambrosio</div>
       </header>
     </div>
 
