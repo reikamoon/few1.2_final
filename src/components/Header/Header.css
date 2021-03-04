@@ -1,4 +1,9 @@
 /*  src/Header.css  */
+body {
+ background-color: black;
+ color: whitesmoke;
+}
+
 .Header {
     font-family: "Metal Mania";
     box-sizing: border-box;
