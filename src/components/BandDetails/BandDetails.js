@@ -1,5 +1,5 @@
 import React from 'react'
-import data from '../../metal.json';
+import data from '../../metal.js';
 import './BandDetails.css';
 import LikeButton from '../LikeButton/LikeButton';
 
