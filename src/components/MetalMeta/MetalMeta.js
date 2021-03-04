@@ -1,10 +1,12 @@
-import React from 'react';
-import data from '../../metal.json';
+import React, { useState } from 'react'
+import data from '../../metal.js';
 import BandDetails from '../BandDetails/BandDetails';
 import './MetalMeta.css';
 
 
+
 function MetalMeta() {
+  const [ query, setQuery ] = useState('')
   const bandcount = JSON.parse(JSON.stringify(data)).length
   const spaces = data.map(( { band_name, fans, formed, origin, split, style }, i) => {
     return (
@@ -23,7 +25,15 @@ function MetalMeta() {
 
   return (
     <div className="MetalMeta">
+    <form>
     <h2>Metal Bands 🤘: {bandcount}</h2>
+    <input
+        value={query}
+        placeholder="Search..."
+        onChange={(e) => setQuery(e.target.value)}
+    />
+    <button type="submit">Submit</button>
+            </form>
       { spaces }
     </div>
   )
