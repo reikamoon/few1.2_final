@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/few1.2_final/static/css/main.ae695e92.chunk.css",
-    "main.js": "/few1.2_final/static/js/main.b7cb4928.chunk.js",
-    "main.js.map": "/few1.2_final/static/js/main.b7cb4928.chunk.js.map",
-    "runtime-main.js": "/few1.2_final/static/js/runtime-main.7f0459ad.js",
-    "runtime-main.js.map": "/few1.2_final/static/js/runtime-main.7f0459ad.js.map",
-    "static/js/2.23cddf2b.chunk.js": "/few1.2_final/static/js/2.23cddf2b.chunk.js",
-    "static/js/2.23cddf2b.chunk.js.map": "/few1.2_final/static/js/2.23cddf2b.chunk.js.map",
-    "static/js/3.73442d12.chunk.js": "/few1.2_final/static/js/3.73442d12.chunk.js",
-    "static/js/3.73442d12.chunk.js.map": "/few1.2_final/static/js/3.73442d12.chunk.js.map",
-    "index.html": "/few1.2_final/index.html",
-    "static/css/main.ae695e92.chunk.css.map": "/few1.2_final/static/css/main.ae695e92.chunk.css.map",
-    "static/js/2.23cddf2b.chunk.js.LICENSE.txt": "/few1.2_final/static/js/2.23cddf2b.chunk.js.LICENSE.txt"
+    "main.css": "/reikamoon.github.io/few1.2_final/static/css/main.ae695e92.chunk.css",
+    "main.js": "/reikamoon.github.io/few1.2_final/static/js/main.b7cb4928.chunk.js",
+    "main.js.map": "/reikamoon.github.io/few1.2_final/static/js/main.b7cb4928.chunk.js.map",
+    "runtime-main.js": "/reikamoon.github.io/few1.2_final/static/js/runtime-main.ba53314d.js",
+    "runtime-main.js.map": "/reikamoon.github.io/few1.2_final/static/js/runtime-main.ba53314d.js.map",
+    "static/js/2.23cddf2b.chunk.js": "/reikamoon.github.io/few1.2_final/static/js/2.23cddf2b.chunk.js",
+    "static/js/2.23cddf2b.chunk.js.map": "/reikamoon.github.io/few1.2_final/static/js/2.23cddf2b.chunk.js.map",
+    "static/js/3.73442d12.chunk.js": "/reikamoon.github.io/few1.2_final/static/js/3.73442d12.chunk.js",
+    "static/js/3.73442d12.chunk.js.map": "/reikamoon.github.io/few1.2_final/static/js/3.73442d12.chunk.js.map",
+    "index.html": "/reikamoon.github.io/few1.2_final/index.html",
+    "static/css/main.ae695e92.chunk.css.map": "/reikamoon.github.io/few1.2_final/static/css/main.ae695e92.chunk.css.map",
+    "static/js/2.23cddf2b.chunk.js.LICENSE.txt": "/reikamoon.github.io/few1.2_final/static/js/2.23cddf2b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7f0459ad.js",
+    "static/js/runtime-main.ba53314d.js",
     "static/js/2.23cddf2b.chunk.js",
     "static/css/main.ae695e92.chunk.css",
     "static/js/main.b7cb4928.chunk.js"
